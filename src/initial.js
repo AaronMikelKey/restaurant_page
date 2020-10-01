@@ -3,6 +3,7 @@ function component() {
     const h1 = document.createElement('h1');
 
     h1.innerHTML = 'Best Burgers In Town!';
+    h1.classList.add('hello');
     //header.appendChild(h1);
 
     return h1;
