@@ -1,8 +1,11 @@
+/* custom font */
 @font-face {
     font-family: 'shadowFont';
     src: url('./shadowFont.woff2') format('woff2');
     font-style: normal;
 }
+/* jtabs */
+@import '~node_modules/jtabs/lib/jtabs.css';
 
 body {
     background-image: 

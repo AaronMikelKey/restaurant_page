@@ -1,12 +1,15 @@
 import component from './initial.js';
 import './styles.css';
+// app.js
+import jTabs from 'jtabs';
+var container = document.querySelector('.tabs-container');
 
-/* Not sure if I need this since it's not in an element I'm appending.
-
-import Background from './src/images/burgers.jpg'
-const myBackground = new Image();
-myBackground.src = Background; 
-
-*/
+jTabs({
+    container      : container,
+    buttons        : container.querySelectorAll('.btn-js'),
+    tabs           : container.querySelectorAll('.tab-js'),
+    activeBtnClass : 'btn-active-js',
+    activeTabClass : 'tab-active-js'
+});
 
 document.getElementById('content').appendChild(component);
