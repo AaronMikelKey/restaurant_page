@@ -1,5 +1,10 @@
 body {
-    background: url('./burgers.jpg');
+    background-image: 
+    radial-gradient(circle, rgba(255,0,0,0.10) 10%, rgba(181,0,0,0.30) 60%, rgba(0,0,0,0.65) 100%),
+    url('./burgers.jpg');
+    height: 100vh;
+    background-size: cover;
+    color: white;
 }
 
 .hello {
