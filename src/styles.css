@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'shadowFont';
+    src: url('./shadowFont.woff2') format('woff2');
+    font-style: normal;
+}
+
 body {
     background-image: 
     radial-gradient(circle, rgba(255,0,0,0.10) 10%, rgba(181,0,0,0.30) 60%, rgba(0,0,0,0.65) 100%),
@@ -8,5 +14,6 @@ body {
 }
 
 .hello {
-    color: red;
+    color: white;
+    font-family: 'shadowFont';
 }
