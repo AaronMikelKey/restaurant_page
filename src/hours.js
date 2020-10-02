@@ -7,13 +7,13 @@ Working.  Should be easy to change hours now if wanted.  Could also set up
 //Table for opening and closing hours.
 var openTime = [
     ["Day", "Open", "Close"], //DO NOT CHANGE
-    ["Monday", "11:00 AM", "10:00 PM"],
-    ["Tuesday", "11:00 AM", "10:00 PM"],
-    ["Wednesday", "11:00 AM", "10:00 PM"],
-    ["Thursday", "11:00 AM", "12:00 PM"],
-    ["Friday", "9:00 AM", "2:00 AM"],
-    ["Saturday", "9:00 AM", "2:00 AM"],
-    ["Sunday", "11:00 AM", "12:00 PM"]
+    ["Monday", "11:00 AM -", "10:00 PM"],
+    ["Tuesday", "11:00 AM -", "10:00 PM"],
+    ["Wednesday", "11:00 AM -", "10:00 PM"],
+    ["Thursday", "11:00 AM -", "12:00 PM"],
+    ["Friday", "9:00 AM -", "2:00 AM"],
+    ["Saturday", "9:00 AM -", "2:00 AM"],
+    ["Sunday", "11:00 AM -", "12:00 PM"]
     ];
   
 function hours(arr) {
