@@ -5,11 +5,12 @@ function component() {
     const h1 = document.createElement('h1'); //Page heading
     const homeInfo = document.createElement('p'); //info on restaurant
 
+    hours; //appends hours table to div
     h1.innerHTML = 'Best Burgers In Town!'; //set text of heading
     homeInfo.innerHTML = "Welcome to the Best Burgers In Town!" //set text of info paragraph
     homeContent.appendChild(h1); //append heading to div
     homeContent.appendChild(homeInfo); //append paragraph to div
-    homeContent.appendChild(hours());
+    
 
     return homeContent;
 }
