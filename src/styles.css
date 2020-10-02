@@ -4,8 +4,6 @@
     src: url('./shadowFont.woff2') format('woff2');
     font-style: normal;
 }
-/* jtabs */
-@import '~node_modules/jtabs/lib/jtabs.css';
 
 body {
     background-image: 
@@ -14,9 +12,35 @@ body {
     height: 100vh;
     background-size: cover;
     color: white;
+    font-family: 'shadowFont';
 }
 
-.hello {
-    color: white;
+#content {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+a {
     font-family: 'shadowFont';
+    font-size: 1.8em;
+    font-weight: 800;
+    color: white !important;
+}
+
+.nav-link.active {
+    color: #495057 !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer, footer a {
+    background-color: rgb(73, 73, 73);
+    font-family: serif !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
 }
