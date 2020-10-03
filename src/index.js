@@ -1,4 +1,5 @@
 import component from './home.js';
+import menu from './menu.js';
 import './styles.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -36,7 +37,9 @@ function activateTabContent(e) {
     const activePaneId = anchorReference.getAttribute('href');
     const activePane = document.querySelector(activePaneId);
     activePane.classList.add('active');
+    
 }
 
 //initial page
 document.getElementById('home').appendChild(component);
+document.getElementById('menu').appendChild(menu);

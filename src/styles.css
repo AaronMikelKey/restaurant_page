@@ -49,6 +49,19 @@ a {
     color: #495057 !important;
 }
 
+h1 {
+    font-family: 'shadowFont';
+}
+
+#menu>div{
+    width: auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 footer {
     position: fixed;
     bottom: 0;
