@@ -24,6 +24,10 @@ body {
     color: white;
 }
 
+.tab-content, .tab-pane, #content {
+    overflow: scroll;
+}
+
 table {
     display: block;
     width: 280px;
@@ -49,7 +53,7 @@ a {
     color: #495057 !important;
 }
 
-h1 {
+h1, h2 {
     font-family: 'shadowFont';
 }
 
@@ -73,4 +77,15 @@ footer, footer a {
     font-family: serif !important;
     font-size: 1rem !important;
     font-weight: 400 !important;
+}
+
+#myInfo {
+    color: white;
+    float: right;
+    padding-right: 5px;
+}
+
+#myInfo a {
+    color: rgb(98, 98, 255) !important;
+    text-decoration: underline;
 }
